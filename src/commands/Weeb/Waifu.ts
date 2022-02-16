@@ -12,7 +12,7 @@ export default class Command extends BaseCommand {
         super(client, handler, {
             command: 'waifu',
             description: `Will send you random waifu image.`,
-            aliases: ['wife'],
+            aliases: ['wife','angela'],
             category: 'weeb',
             usage: `${client.config.prefix}waifu`,
             baseXp: 50
@@ -32,7 +32,7 @@ export default class Command extends BaseCommand {
                     MessageType.image,
                     undefined,
                     undefined,
-                    `*🌟 Here you go.*\n`,
+                    `*Infinity♾️*\n`,
                     undefined
                 ).catch((e) => {
                     console.log(`This Error occurs when an image is sent via M.reply()\n Child Catch Block : \n${e}`)
