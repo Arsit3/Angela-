@@ -369,7 +369,7 @@ const educative = [
 
           { title: "Coding", rows: coding },
 
-              { title: "Educative", rows: educative },
+          { title: "Educative", rows: educative },
 
           { title: "Fun", rows: fun },
 
