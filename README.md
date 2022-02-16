@@ -1,7 +1,7 @@
 <div align="center">
 <a href="https://coolwallpapers.me/6161785-buidling-kimono-girl-geisha.html"><img src="https://coolwallpapers.me/th700/6161785-buidling-kimono-girl-geisha.jpg" alt="aco" border="0"></a>
 
-# **Angela : A WHATSAPP BOT WITH RICH ANIME AND BOTTO FEATURES MODIFIED BY KILLERCROSX**
+# **Angela : A WHATSAPP BOT RICH IN  ANIME AND BOTTO FEATURES MODIFIED BY KILLERCROSX**
 
 [![CodeFactor](https://www.codefactor.io/repository/github/shineiichijo/chitoge/badge)](https://www.codefactor.io/repository/github/Killercrosx/Angela)
 
