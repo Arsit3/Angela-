@@ -9,7 +9,7 @@
 
 > A Fully Modular and Efficient Whatsapp Bot <br>
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/Killercrosx/Angela/blob/main)
 
 
 </div><br/>
