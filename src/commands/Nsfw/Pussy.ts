@@ -14,7 +14,7 @@ export default class Command extends BaseCommand {
 		super(client, handler, {
 			command: "pussy",
 			description: `Will send you random pussy image.`,
-			aliases: ["pussy"],
+			aliases: ["kuma"],
 			category: "nsfw",
 			usage: `${client.config.prefix}pussy`,
 			baseXp: 50,
