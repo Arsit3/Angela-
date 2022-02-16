@@ -42,7 +42,7 @@ export default class Command extends BaseCommand {
 		text += `🌐 *URL: ${haigusha.url}*\n\n`;
 		text += `❤ *Description:* ${haigusha.description}\n`;
 		if (haigusha == undefined) {
-			return void M.reply("✖ An error occurred. Please try again later.");
+			return void M.reply("An error occurred. Please try again later.");
 		}
 		//const thumbnail = await request.buffer(
 		//`https://mocah.org/thumbs/192010-chitoge-kirisaki-1920x1080.png`
@@ -53,7 +53,7 @@ export default class Command extends BaseCommand {
 		while (true) {
 			try {
 				M.reply(
-					buffer || "✖ An error occurred. Please try again later",
+					buffer || "An error occurred. Please try again later",
 					MessageType.image,
 					undefined,
 					undefined,
@@ -64,12 +64,12 @@ export default class Command extends BaseCommand {
 						`This error occurs when an image is sent via M.reply()\n Child Catch Block : \n${e}`
 					);
 					// console.log('Failed')
-					M.reply(`✖ An error occurred. Please try again later.`);
+					M.reply(`An error occurred. Please try again later.`);
 				});
 				break;
 			} catch (e) {
 				// console.log('Failed2')
-				M.reply(`✖ An error occurred. Please try again later.`);
+				M.reply(`An error occurred. Please try again later.`);
 				console.log(
 					`This error occurs when an image is sent via M.reply()\n Parent Catch Block : \n${e}`
 				);
