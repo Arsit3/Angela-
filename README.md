@@ -27,12 +27,12 @@
 ## 💻 Deploy/Hosting Guide
 
 -   Section Moved to
-    [Angela-Guides](https://github.com/ShineiIchigo/Chitoge-Guides/blob/main/README.md)
+    [Angela-Guides](https://github.com/ShineiIchijo/Chitoge-Guides/blob/main/README.md)
 
 ## 🍥 Features of the Repo
 
 -   To view all features, click
-    here➡️[Angela_featuresList.md](https://github.com/ShineiIchigo/Chitoge/blob/main/Features.md)
+    here➡️[Angela_featuresList.md](https://github.com/ShineiIchijo/Chitoge/blob/main/Features.md)
 
 ## 💪 Contribution
 
