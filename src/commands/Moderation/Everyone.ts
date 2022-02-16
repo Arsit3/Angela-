@@ -52,7 +52,7 @@ export default class Command extends BaseCommand {
 			return void (await M.reply(
 				`${
 					M.groupMetadata?.subject || "*EVERYONE*"
-				}\n*READ QUOTED MESSAGE*\n*[TAGGED MAGICALLY & SUPERNATURALLY 🔥]*`,
+				}\n*READ QUOTED MESSAGE*\n\n*[TAGGED MAGICALLY & SUPERNATURALLY 🔥]*`,
 				undefined,
 				undefined,
 				M.groupMetadata?.participants.map((user) => user.jid)
