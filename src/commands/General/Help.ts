@@ -112,7 +112,7 @@ run = async (
           .join(", ")}\`\`\`\n\n`;
 
       const coding = [{ title: "github", rowId: "rowid1" }];
-const educative = [
+      const educative = [
 
         { title: "calculator", rowId: "rowid1" },
 
@@ -151,12 +151,12 @@ const educative = [
         { title: "wanted", rowId: "rowid2" },
 
       ];
-    const games = [
+      const games = [
 
         { title: "chess", rowId: "rowid2" },
 
       ];
-    const general = [
+      const general = [
 
         { title: "admins", rowId: "rowid1" },
 
@@ -267,7 +267,7 @@ const educative = [
         { title: "seggs", rowId: "rowid2" },
 
       ];
-    const utils = [
+      const utils = [
 
         { title: "blur", rowId: "rowid1" },
 
@@ -338,7 +338,7 @@ const educative = [
         { title: "wallpaper", rowId: "rowid2" },
 
       ];
-    let sections;
+      let sections;
 
       if (!(await (await this.client.getGroupData(M.from)).nsfw)) {
 
@@ -363,7 +363,7 @@ const educative = [
           { title: "Weeb", rows: weeb },
 
           ];
-    } else {
+        } else {
 
         sections = [
 
@@ -436,7 +436,7 @@ const educative = [
 
     const command =
 
-      this.handler.commands.get(key) || this.handler.aliases.get(key);
+    this.handler.commands.get(key) || this.handler.aliases.get(key);
 
     if (!command) return void null;
 
