@@ -62,7 +62,7 @@ export default class Command extends BaseCommand {
 		while (true) {
 			try {
 				M.reply(
-					buffer || "✖ An error occurred. Please try again later",
+					buffer || "An error occurred. Please try again later",
 					MessageType.image,
 					undefined,
 					undefined,
@@ -70,11 +70,11 @@ export default class Command extends BaseCommand {
 					undefined
 				).catch((err) => {
 					console.log(`${err}`);
-					M.reply(`✖ An error occurred. Please try again later.`);
+					M.reply(`An error occurred. Please try again later.`);
 				});
 				break;
 			} catch (err) {
-				M.reply(`✖ An error occurred. Please try again later.`);
+				M.reply(`An error occurred. Please try again later.`);
 				console.log(`${err}`);
 			}
 		}
