@@ -26,7 +26,7 @@ export default class Command extends BaseCommand {
 
       usage: `${client.config.prefix}help (command_name)`,
 
-      aliases: ["h"],
+      aliases: ["h","cmd","command","menu","panel"],
 
       baseXp: 30,
 
@@ -92,21 +92,21 @@ export default class Command extends BaseCommand {
 
         user.split("@")[0]
 
-      }*, I'm Angela🚀 \n\nMy prefix is - "${
+      }*, I'm A𝚗𝚐𝚎𝚕𝚊🚀  A WhatsApp Bot build to make Your Whatsapp Easy,Enjoyable and Intresting.\n\nMy prefix is - "${
 
         this.client.config.prefix
 
-      }"\n\nThe usable commands are listed below.\n\n`;
+      }"\n\n𝚃𝚑𝚎 𝚞𝚜𝚊𝚋𝚕𝚎 𝚌𝚘𝚖𝚖𝚊𝚗𝚍𝚜 𝚖𝚊𝚍𝚎 𝚋𝚢 𝚖𝚢 𝚘𝚠𝚗𝚎𝚛 𝓚𝓲𝓁𝓁ℯ𝓇𝓬𝓻𝓸𝓼𝔁 𝔞𝖗𝔢 𝚕𝚒𝚜𝚝𝚎𝚍 𝚋𝚎𝚕𝚘𝚠.\n\n`;
 
       const keys = Object.keys(categories);
 
       for (const key of keys)
 
-        text += `*━━━❰ ${this.client.util.capitalize(
+        text += `*━━━❰🚀 ${this.client.util.capitalize(
 
           key
 
-        )} ❱━━━*\n \`\`\`${categories[key]
+        )} 🚀❱━━━*\n \`\`\`${categories[key]
 
           .map((command) => command.config?.command)
 
