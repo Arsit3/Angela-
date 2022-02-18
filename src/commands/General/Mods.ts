@@ -10,7 +10,7 @@ export default class Command extends BaseCommand {
             description: "Displays the Moderators' contact info",
             category: 'general',
             usage: `${client.config.prefix}mods`,
-            aliases: ['moderators', 'mod', 'owner']
+            aliases: ['mod','owner']
         })
     }
 
@@ -20,9 +20,9 @@ export default class Command extends BaseCommand {
         let text = '💎 *Angela🚀 Owner(s)* 💎\n\n'
         filteredMap.forEach(
             (user, index) =>
-                (text += `#${index + 1}\n🔥Username: ${
+                (text += `#${index + 1}\n🌻🔥*Username: ${
                     user.notify || user.vname || user.name || 'null'
-                }\n🍃🍂 *Contact: https://wa.me/+${user?.jid?.split('@')[0]}*\n\n`)
+                }*\n🍃🍂 *Contact: https://wa.me/+${user?.jid?.split('@')[0]}*\n\n`)
         )
         text += `\nAngela🚀`
         return void M.reply(text)
