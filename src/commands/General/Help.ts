@@ -92,11 +92,11 @@ export default class Command extends BaseCommand {
 
         user.split("@")[0]
 
-      }*, I'm A𝚗𝚐𝚎𝚕𝚊🚀  A WhatsApp Bot build to make Your Whatsapp Easy,Enjoyable and Intresting.\n\nMy prefix is - "${
+      }*, I'm Angela🚀\n\nMy prefix is - "${
 
         this.client.config.prefix
 
-      }"\n\n𝚃𝚑𝚎 𝚞𝚜𝚊𝚋𝚕𝚎 𝚌𝚘𝚖𝚖𝚊𝚗𝚍𝚜 𝚖𝚊𝚍𝚎 𝚋𝚢 𝚖𝚢 𝚘𝚠𝚗𝚎𝚛 𝓚𝓲𝓁𝓁ℯ𝓇𝓬𝓻𝓸𝓼𝔁 𝔞𝖗𝔢 𝚕𝚒𝚜𝚝𝚎𝚍 𝚋𝚎𝚕𝚘𝚠.\n\n`;
+      }"\n\n𝚃𝚑𝚎 𝚞𝚜𝚊𝚋𝚕𝚎 𝚌𝚘𝚖𝚖𝚊𝚗𝚍𝚜 𝚊𝚛𝚎 𝚕𝚒𝚜𝚝𝚎𝚍 𝚋𝚎𝚕𝚘𝚠.\n\n`;
 
       const keys = Object.keys(categories);
 
