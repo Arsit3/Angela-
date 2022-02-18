@@ -88,11 +88,11 @@ export default class Command extends BaseCommand {
 
       }
 
-      let text = `Kon'nichiwa👋, *@${
+      let text = `𝙺𝚘𝚗'𝚗𝚒𝚌𝚑𝚒𝚠𝚊👋, *@${
 
         user.split("@")[0]
 
-      }*, I'm Angela🚀\n\nMy prefix is - "${
+      }*, 𝙸 𝚊𝚖 𝙰𝚗𝚐𝚎𝚕𝚊🚀\n\n𝙼𝚢 𝚙𝚛𝚎𝚏𝚒𝚡 𝚒𝚜- "${
 
         this.client.config.prefix
 
