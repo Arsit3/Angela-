@@ -92,7 +92,7 @@ export default class MessageHandler {
 		);
 		if (!command)
 			return void M.reply(
-				`Do You Mean, *${this.client.config.prefix}help*.`
+				`Do You Mean, *${this.client.config.prefix}help?*`
 			);
 		const user = await this.client.getUser(M.sender.jid);
 		if (user.ban) return void M.reply("You're Banned 🚫 from using Commands.");
