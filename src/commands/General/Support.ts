@@ -40,7 +40,7 @@ export default class Command extends BaseCommand {
 
 *📮𝗦𝘂𝗽𝗽𝗼𝗿𝘁 𝗚𝗿𝗼𝘂𝗽 𝗟𝗶𝗻𝗸*
 
-https://chat.whatsapp.com/IvGNhMR6DclEDK0WY9St3r `,
+https://chat.whatsapp.com/JQiAOFypdm04PNBfvPINlh `,
 
            MessageType.text
 
