@@ -32,7 +32,7 @@ export default class EventHandler {
 
         const text = add
 
-					? `- ${group.subject || "___"} -\n\n🇰🇪 *Group Description:*\n${							group.desc
+					? `- ${group.subject || "___"} -\n\n🌠☄️ *Group Description:*\n${							group.desc
 
 					  }\n\nWelcome 🤲\n\n${event.participants
 
