@@ -6,7 +6,7 @@
 [![CodeFactor](https://www.codefactor.io/repository/github/shineiichijo/chitoge/badge)](https://www.codefactor.io/repository/github/Killercrosx/Angela)
 
 ## 𝚆𝚑𝚊𝚝𝚜𝙰𝚙𝚙 ☟☟☟☟ 𝙺𝚒𝚕𝚕𝚎𝚛𝚌𝚛𝚘𝚜𝚡
-## ☞☛[![WhatsApp Killercrosx](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/+254798941735) ☚☜
+## ☞☛ [![WhatsApp Killercrosx](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/+254798941735) ☚☜
 ## [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/) 
 ## [![NodeJs](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/en/)
 
