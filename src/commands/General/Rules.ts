@@ -24,7 +24,7 @@ export default class Command extends BaseCommand {
 
             description: `Get rules list`,
 
-            aliases: ['rules'],
+            aliases: ['rule'],
 
             category: 'general',
 
