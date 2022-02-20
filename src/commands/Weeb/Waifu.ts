@@ -12,7 +12,7 @@ export default class Command extends BaseCommand {
         super(client, handler, {
             command: 'waifu',
             description: `Will send you random waifu image.`,
-            aliases: ['wife','angela'],
+            aliases: ['wife'],
             category: 'weeb',
             usage: `${client.config.prefix}waifu`,
             baseXp: 50
