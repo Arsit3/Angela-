@@ -48,7 +48,7 @@ export default class EventHandler {
 
 					  }*, We'll Miss You So Much 🤗.`
 
-					: `Hehehe Ok!🦄 *@${
+					: `🦄 Hehehe Ok! *@${
 
 							event.participants[0].split("@")[0]
 
