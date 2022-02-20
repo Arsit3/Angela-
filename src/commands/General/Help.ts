@@ -418,7 +418,7 @@ export default class Command extends BaseCommand {
 
         footerText: "Angela🚀",
 
-        usage: `${client.config.prefix}help (command_name)`,
+        usage: `${this.client.config.prefix}help (command_name)`,
 
         description: `${text} 📝 *Note: Use ${this.client.config.prefix}help (command_name) to view the command info*`,
 
