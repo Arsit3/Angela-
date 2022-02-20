@@ -92,9 +92,9 @@ export default class Command extends BaseCommand {
 
         user.split("@")[0]
 
-      }*, I am Angela🚀\n\n𝙼𝚢 𝚙𝚛𝚎𝚏𝚒𝚡 𝚒𝚜 "*${
+      }*, I am Angela🚀\n\n𝙼𝚢 𝚙𝚛𝚎𝚏𝚒𝚡 𝚒𝚜 "${
 
-        this.client.config.prefix*
+        this.client.config.prefix
 
       }"\n\n𝚃𝚑𝚎 𝚞𝚜𝚊𝚋𝚕𝚎 𝚌𝚘𝚖𝚖𝚊𝚗𝚍𝚜 𝚊𝚛𝚎 𝚕𝚒𝚜𝚝𝚎𝚍 𝚋𝚎𝚕𝚘𝚠.\n\n`;
 
